@@ -15,12 +15,5 @@
       "src": "/(.*)",
       "dest": "/index.js"
     }
-  ],
-  "public": {
-    "rewrites": [
-      {
-        "source": "/(.*)",
-        "dest": "/$1"
-      }
-    ]
+  ]
 }
