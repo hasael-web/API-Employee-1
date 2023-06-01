@@ -21,7 +21,7 @@ app.use(express.json());
 
 // router
 
-app.use('api/v1/users', routerEmployees);
+app.use('/api/v1/users', routerEmployees);
 
 // middleware errors
 app.use(notFound);
