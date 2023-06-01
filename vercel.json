@@ -15,5 +15,18 @@
       "src": "/(.*)",
       "dest": "/index.js"
     }
-  ]
+  ],
+"rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/server.js"
+    }
+  ],
+  "public": {
+    "rewrites": [
+      {
+        "source": "/(.*)",
+        "destination": "/$1"
+      }
+    ]
 }
