@@ -1,0 +1,3 @@
+PORT = auto 
+PASSWORD DB = oo7qF3tlSwfnfbPf
+URL DB = mongodb+srv://bebecok75:oo7qF3tlSwfnfbPf@cluster0.tuxnpck.mongodb.net/api-filter
