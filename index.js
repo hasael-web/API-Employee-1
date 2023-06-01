@@ -18,7 +18,7 @@ const PORT = process.env.PORT || 3000;
 
 // middleware
 app.use(express.json());
-
+app.use(express.static("public")
 // router
 
 app.use('/api/v1/users', routerEmployees);
